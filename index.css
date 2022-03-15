@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+}
+
+#top-el {
+  background-image: linear-gradient(
+    45deg,
+    hsl(261deg 100% 69%) 0%,
+    hsl(254deg 100% 69%) 10%,
+    hsl(247deg 100% 69%) 20%,
+    hsl(238deg 100% 69%) 30%,
+    hsl(229deg 100% 63%) 40%,
+    hsl(218deg 100% 52%) 50%,
+    hsl(223deg 72% 49%) 60%,
+    hsl(227deg 63% 43%) 70%,
+    hsl(230deg 56% 36%) 80%,
+    hsl(234deg 50% 29%) 90%,
+    hsl(237deg 44% 21%) 100%
+  );
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-yazi {
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#top-yazi-alt {
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  max-width: 600px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#bottom-el {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #292442;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-units {
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bottom-desc {
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
